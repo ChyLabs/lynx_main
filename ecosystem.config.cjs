@@ -1,11 +1,11 @@
 module.exports = {
   apps: [
     {
-      name: 'chydev_react_vite_boilerplate',
+      name: 'lynx_main',
       namespace: 'client', // Change this namespace according to your project type
       script: 'yarn',
       args: 'preview',
-      cwd: '/home/user/directory/chydev_react_vite_boilerplate', // Change this path according to your project location
+      cwd: '/home/user/directory/lynx_main', // Change this path according to your project location
       exec_mode: 'fork',
       node_args: '--max-old-space-size=1024',
       max_memory_restart: '850M',
